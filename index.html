@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brown Sugar Baking Company</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        <img src="https://fit-aquamarine-phjs5sclh1.edgeone.app/Logoogogoog-removebg-preview.png" alt="Brown Sugar Baking Co. Logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'"/>
+        <span class="logo-text-fallback" style="display:none">Brown Sugar Baking Co.</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#visit">Visit</a>
+        <a href="#order" class="nav-cta">Order Now</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about" class="mob-link">About</a>
+      <a href="#menu" class="mob-link">Menu</a>
+      <a href="#services" class="mob-link">Services</a>
+      <a href="#testimonials" class="mob-link">Reviews</a>
+      <a href="#visit" class="mob-link">Visit</a>
+      <a href="#order" class="mob-link mob-cta">Order Now</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-grain"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Est. 2004 · Seattle, WA</p>
+      <h1 class="hero-title">Brown Sugar<br/><em>Baking Company</em></h1>
+      <p class="hero-tagline">Fresh. Organic. Pure.<br/>Allergen-free plant-based treats made with love.</p>
+      <div class="hero-buttons">
+        <a href="#menu" class="btn-primary">Explore Our Menu</a>
+        <a href="#order" class="btn-ghost">Order Online</a>
+      </div>
+    </div>
+    <div class="hero-badge">
+      <span>Nut-Free</span>
+      <span>·</span>
+      <span>Vegan</span>
+      <span>·</span>
+      <span>Allergen-Free</span>
+    </div>
+    <div class="hero-scroll-hint">↓</div>
+  </section>
+
+  <!-- MISSION STRIP -->
+  <section class="mission-strip">
+    <div class="marquee-track">
+      <span>Absolute Trust &amp; Safety</span>
+      <span class="dot">✦</span>
+      <span>Uncompromising Taste</span>
+      <span class="dot">✦</span>
+      <span>Locally Sourced</span>
+      <span class="dot">✦</span>
+      <span>Community-Rooted</span>
+      <span class="dot">✦</span>
+      <span>Allergen-Free Kitchen</span>
+      <span class="dot">✦</span>
+      <span>Absolute Trust &amp; Safety</span>
+      <span class="dot">✦</span>
+      <span>Uncompromising Taste</span>
+      <span class="dot">✦</span>
+      <span>Locally Sourced</span>
+      <span class="dot">✦</span>
+      <span>Community-Rooted</span>
+      <span class="dot">✦</span>
+      <span>Allergen-Free Kitchen</span>
+      <span class="dot">✦</span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section-pad" id="about">
+    <div class="container about-grid">
+      <div class="about-images">
+        <div class="img-stack">
+          <img class="img-main" src="https://brownsugarbakingcompany.com/wp-content/uploads/2019/01/santa-tin.jpg" alt="Brown Sugar holiday tin" onerror="this.src='https://images.unsplash.com/photo-1486427944299-d1955d23e34d?w=600'"/>
+          <div class="img-accent-box"></div>
+        </div>
+      </div>
+      <div class="about-text">
+        <p class="section-label">Our Story</p>
+        <h2>Baked with Purpose.<br/><em>Shared with Love.</em></h2>
+        <p>Founded in California in 2004 and bringing our craft to Seattle in 2011, Brown Sugar Baking Company is the city's only specialty organic, nut-free wholesale and retail baked goods company.</p>
+        <p>Owner Lillian Hill — wife, mother, daughter, community leader — built this bakery on a simple but powerful belief: <strong>everyone deserves a birthday cake.</strong> Whether you have extreme food allergies or strict dietary restrictions, you shouldn't have to miss out on life's sweetest moments.</p>
+        <p>We source locally, employ from the immediate neighborhood, and bake every item with the care and artistry of traditional techniques.</p>
+        <div class="about-stats">
+          <div class="stat"><span class="stat-num">20+</span><span class="stat-label">Years Baking</span></div>
+          <div class="stat"><span class="stat-num">0</span><span class="stat-label">Big 8 Allergens</span></div>
+          <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Plant-Based</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="menu section-pad" id="menu">
+    <div class="container">
+      <p class="section-label center">What We Bake</p>
+      <h2 class="center">Our Menu</h2>
+      <p class="section-subhead center">Sweet and savory treats, made allergen-free. Every single time.</p>
+
+      <div class="menu-tabs">
+        <button class="tab-btn active" data-tab="retail">Retail (B2C)</button>
+        <button class="tab-btn" data-tab="wholesale">Wholesale (B2B)</button>
+        <button class="tab-btn" data-tab="foodservice">Food Service</button>
+      </div>
+
+      <div class="tab-content active" id="tab-retail">
+        <div class="menu-grid">
+          <div class="menu-item"><span class="item-name">Bars</span><span class="item-price">$6+</span></div>
+          <div class="menu-item"><span class="item-name">Cakes</span><span class="item-price">$65+</span></div>
+          <div class="menu-item"><span class="item-name">Cake Slices</span><span class="item-price">$6+</span></div>
+          <div class="menu-item"><span class="item-name">Cookies</span><span class="item-price">$3+</span></div>
+          <div class="menu-item"><span class="item-name">Doughnuts</span><span class="item-price">$3+</span></div>
+          <div class="menu-item"><span class="item-name">Empanadas</span><span class="item-price">$4+</span></div>
+          <div class="menu-item"><span class="item-name">Focaccia</span><span class="item-price">$8+</span></div>
+          <div class="menu-item"><span class="item-name">Hand Pies</span><span class="item-price">$7+</span></div>
+          <div class="menu-item"><span class="item-name">Quiche</span><span class="item-price">$8+</span></div>
+          <div class="menu-item"><span class="item-name">Sammies</span><span class="item-price">$9+</span></div>
+          <div class="menu-item"><span class="item-name">Sweet Loaf</span><span class="item-price">$8+</span></div>
+          <div class="menu-item"><span class="item-name">Sweet Rolls</span><span class="item-price">$6+</span></div>
+          <div class="menu-item full-width"><span class="item-name">Catering</span><span class="item-price">$3+ per person</span></div>
+        </div>
+      </div>
+
+      <div class="tab-content" id="tab-wholesale">
+        <div class="menu-grid">
+          <div class="menu-item"><span class="item-name">Bars</span><span class="item-price">Wholesale Pricing</span></div>
+          <div class="menu-item"><span class="item-name">Brownies</span><span class="item-price">Wholesale Pricing</span></div>
+          <div class="menu-item"><span class="item-name">Cakes</span><span class="item-price">Wholesale Pricing</span></div>
+          <div class="menu-item"><span class="item-name">Cookies</span><span class="item-price">Wholesale Pricing</span></div>
+          <div class="menu-item"><span class="item-name">Hand Pies</span><span class="item-price">Wholesale Pricing</span></div>
+          <div class="menu-item"><span class="item-name">Quiche</span><span class="item-price">Wholesale Pricing</span></div>
+          <div class="menu-item"><span class="item-name">Sweet Loaf</span><span class="item-price">Wholesale Pricing</span></div>
+        </div>
+        <p class="menu-note">All wholesale items are single-serve packaged sweet and savory treats. <a href="#order">Contact us</a> for B2B inquiries.</p>
+      </div>
+
+      <div class="tab-content" id="tab-foodservice">
+        <div class="menu-grid">
+          <div class="menu-item"><span class="item-name">Brownie Sheet</span><span class="item-price">Bulk Order</span></div>
+          <div class="menu-item"><span class="item-name">Cookie Dough</span><span class="item-price">Bulk Order</span></div>
+          <div class="menu-item"><span class="item-name">Empanada (Frozen)</span><span class="item-price">Bulk Order</span></div>
+          <div class="menu-item"><span class="item-name">Pie Dough</span><span class="item-price">Bulk Order</span></div>
+        </div>
+        <p class="menu-note">Interested in adding our products to your food service program? <a href="#order">Reach out</a> and let's talk.</p>
+      </div>
+
+      <div class="menu-cta-row">
+        <a href="https://brown-sugar-baking-company.square.site" target="_blank" class="btn-primary">View Full Menu & Order</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PHOTO GALLERY STRIP -->
+  <section class="gallery-strip">
+    <div class="gallery-scroll">
+      <div class="gallery-item">
+        <img src="https://brownsugarbakingcompany.com/wp-content/uploads/2019/01/santa-tin.jpg" alt="Holiday tin assortment" onerror="this.parentElement.style.display='none'"/>
+      </div>
+      <div class="gallery-item tall">
+        <img src="https://brownsugarbakingcompany.com/wp-content/uploads/2018/09/berry-tart.jpg" alt="Berry tart" onerror="this.parentElement.style.display='none'"/>
+      </div>
+      <div class="gallery-item">
+        <img src="https://brownsugarbakingcompany.com/wp-content/uploads/2018/09/rainbow-cake.jpg" alt="Custom rainbow cake" onerror="this.parentElement.style.display='none'"/>
+      </div>
+      <div class="gallery-item tall">
+        <img src="https://brownsugarbakingcompany.com/wp-content/uploads/2018/09/quiche.jpg" alt="Savory quiche" onerror="this.parentElement.style.display='none'"/>
+      </div>
+      <div class="gallery-item">
+        <img src="https://brownsugarbakingcompany.com/wp-content/uploads/2018/09/birthday-cake.jpg" alt="Birthday cake" onerror="this.parentElement.style.display='none'"/>
+      </div>
+      <div class="gallery-item" id="gal-vegan">
+        <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?w=400&q=80" alt="Vegan cupcakes" />
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services section-pad" id="services">
+    <div class="container">
+      <p class="section-label center">What We Offer</p>
+      <h2 class="center">Beyond the Bakery</h2>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">🎂</div>
+          <h3>Custom Desserts</h3>
+          <p>Every celebration deserves something extraordinary. From rainbow birthday cakes to allergen-safe holiday spreads — we create edible memories.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🍽️</div>
+          <h3>Food Catering</h3>
+          <p>Yes — we do savory too. Quiches, empanadas, focaccia, sammies and more for your events, starting at just $3+ per person.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">📦</div>
+          <h3>Wholesale B2B</h3>
+          <p>Bring allergen-free, plant-based treats to your business. Single-serve packaged items available for cafés, offices, and retail partners.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🌱</div>
+          <h3>Food Incubator</h3>
+          <p>We support women-owned food businesses in exploring what it takes to start and scale. Past residents include Ma & Pops popsicles and Akio's Bakery.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">💡</div>
+          <h3>Consulting</h3>
+          <p>Lean on our 20+ years of experience to help launch or grow your food business. Mentorship and guidance from someone who's been in the kitchen.</p>
+        </div>
+        <div class="service-card highlight-card">
+          <div class="service-icon">🛒</div>
+          <h3>Online Ordering</h3>
+          <p>Order ahead for pickup. We're a production kitchen — pre-ordering guarantees your items are fresh and ready when you arrive.</p>
+          <a href="https://brown-sugar-baking-company.square.site" target="_blank" class="btn-primary small">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials section-pad" id="testimonials">
+    <div class="container">
+      <p class="section-label center">What People Say</p>
+      <h2 class="center">Sweet Reviews</h2>
+
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <div class="quote-mark">"</div>
+          <p>My birthday party was such a great experience! I can't thank you enough for paying attention to all the little things that really made it special for me. I'm looking forward to celebrating many more birthdays with you.</p>
+          <cite>— John Michaels</cite>
+        </div>
+        <div class="testimonial-card featured">
+          <div class="quote-mark">"</div>
+          <p>I want to personally thank Lillian Hill for once again delivering the perfect arrangement of products at the last minute. We can't thank you enough for all the support you have shown for allergy-ridden kids!</p>
+          <cite>— Harry Paige</cite>
+        </div>
+        <div class="testimonial-card">
+          <div class="quote-mark">"</div>
+          <p>The breakfast buffet was excellent. The selection of fruits and pastries were a welcome sight early in the morning.</p>
+          <cite>— Amy Ellis</cite>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISIT / MAP -->
+  <section class="visit section-pad" id="visit">
+    <div class="container visit-grid">
+      <div class="visit-info">
+        <p class="section-label">Find Us</p>
+        <h2>Come Visit</h2>
+        <div class="visit-detail">
+          <span class="visit-icon">📍</span>
+          <div>
+            <strong>Address</strong>
+            <p>308 22nd Ave S, Suite 101<br/>Seattle, WA 98144</p>
+          </div>
+        </div>
+        <div class="visit-detail">
+          <span class="visit-icon">🕐</span>
+          <div>
+            <strong>Hours</strong>
+            <p>Thursday – Friday: 10am – 2pm<br/>Sunday Pop-Ups: 11am – 4pm</p>
+          </div>
+        </div>
+        <div class="visit-detail">
+          <span class="visit-icon">📞</span>
+          <div>
+            <strong>Phone</strong>
+            <p><a href="tel:2065560749">(206) 556-0749</a></p>
+          </div>
+        </div>
+        <div class="visit-detail">
+          <span class="visit-icon">✉️</span>
+          <div>
+            <strong>Email</strong>
+            <p><a href="mailto:brownsugarbaking@live.com">brownsugarbaking@live.com</a></p>
+          </div>
+        </div>
+        <div class="visit-note">
+          <p>⚠️ We are a <strong>production kitchen</strong> and do not operate as a full-time retail storefront. Walk-up purchases may be available during open hours if items are in stock. <strong>Pre-ordering is strongly recommended.</strong></p>
+        </div>
+        <div class="social-links">
+          <a href="https://www.facebook.com/bsbco" target="_blank" aria-label="Facebook">
+            <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/brownsugarbaking" target="_blank" aria-label="Instagram">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://brownsugarbakingcompany.com" target="_blank" aria-label="Website">
+            <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="map-wrapper">
+        <iframe
+          title="Brown Sugar Baking Company Location"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2690.7386143506787!2d-122.30697528436988!3d47.5980279791829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906ab2e6b0e3e7%3A0x7a0f0c0af8e3b5e1!2s308%2022nd%20Ave%20S%2C%20Seattle%2C%20WA%2098144!5e0!3m2!1sen!2sus!4v1710000000000!5m2!1sen!2sus"
+          width="100%"
+          height="100%"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ORDER / CTA -->
+  <section class="order-cta" id="order">
+    <div class="order-grain"></div>
+    <div class="container order-inner">
+      <h2>Ready to order?</h2>
+      <p>Place your order online for pickup, or call us to discuss custom orders, wholesale, catering, and consulting.</p>
+      <div class="order-buttons">
+        <a href="https://brown-sugar-baking-company.square.site" target="_blank" class="btn-primary large">Order Online</a>
+        <a href="tel:2065560749" class="btn-ghost large">Call (206) 556-0749</a>
+      </div>
+      <p class="gofundme-link">Support our growth: <a href="https://gofund.me/e3084299c" target="_blank">GoFundMe Campaign →</a></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <p class="footer-name">Brown Sugar Baking Company</p>
+        <p class="footer-tagline">Fresh · Organic · Pure · Est. 2004</p>
+      </div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#services">Services</a>
+        <a href="#visit">Visit</a>
+        <a href="#order">Order</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/bsbco" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/brownsugarbaking" target="_blank">Instagram</a>
+        <a href="https://brownsugarbakingcompany.com" target="_blank">Website</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Brown Sugar Baking Company · 308 22nd Ave S Suite 101, Seattle, WA 98144</p>
+    </div>
+  </footer>
+
+  <script>
+    // Navbar scroll effect
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // Hamburger menu
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('open');
+      mobileMenu.classList.toggle('open');
+    });
+    mobileMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('open');
+        mobileMenu.classList.remove('open');
+      });
+    });
+
+    // Menu tabs
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+        btn.classList.add('active');
+        document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+      });
+    });
+
+    // Scroll reveal
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('revealed'); });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.service-card, .testimonial-card, .menu-item, .stat, .visit-detail').forEach(el => {
+      el.classList.add('reveal');
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>
